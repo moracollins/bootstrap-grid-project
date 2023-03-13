@@ -1,0 +1,65 @@
+
+/*button colors and hover colors*/
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #7B8CDE;
+}
+
+.btn-primary:hover{
+   background-color: #54609d; 
+}
+
+.search-btn, .search-btn:active, .search-btn:visited{
+    color:#2E5090;
+    border-color: #2E5090;
+}
+
+.search-btn:hover{
+    background-color:#7B8CDE;
+}
+
+/*text colors*/
+h3{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+p{
+    color:white;
+}
+
+/*column colors and padding*/
+.column-1{
+    background-color: #2E5090 ;
+    padding:20px;
+    
+}
+
+.column-2{
+    background-color: #7B8CDE ;
+    padding:8px;
+}
+
+.column-3{
+    background-color: #9999C3;
+    padding:10px;    
+}
+
+.column-4{
+    background-color: #9999C3;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.row{
+    height:100vh;
+    
+}
+
+@media screen and (min-width: 992px){
+    .column-4{
+        display:none;
+    }
+}
