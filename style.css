@@ -1,11 +1,16 @@
 
 /*button colors and hover colors*/
-.btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color: #7B8CDE;
+.inbox-btn{
+    background-color: #2E5090;
+    border-color:#2E5090;
+    width:60%;
+    display:flex;
+    padding:15px;
 }
 
-.btn-primary:hover{
-   background-color: #54609d; 
+.inbox-btn:hover{
+    background-color: #7B8CDE;
+    border-color: #2E5090;
 }
 
 .search-btn, .search-btn:active, .search-btn:visited{
@@ -14,18 +19,40 @@
 }
 
 .search-btn:hover{
-    background-color:#7B8CDE;
+    background-color: #2E5090;
+    border-color: #2E5090;
 }
 
+.button{
+    padding-top:20px;
+}
+
+.list-btn{
+    display: flex;
+    width:60%;
+    border-color: #2E5090;
+    color:white;
+    padding:15px;
+}
+
+.list-btn:hover{
+    background-color: #7B8CDE;
+    border-color: #2E5090;
+}
+
+.reply-btn{
+    padding-top:50px;
+}
 /*text colors*/
 h3{
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
+    padding-bottom:30px;
 }
 
 p{
-    color:white;
+    padding-top:20px;
 }
 
 /*column colors and padding*/
@@ -42,17 +69,14 @@ p{
 
 .column-3{
     background-color: #9999C3;
-    padding:10px;    
+    padding:40px;    
 }
 
 .column-4{
     background-color: #9999C3;
 }
 
-a:link{
-    text-decoration: none;
-}
-
+/*visibility of columns*/
 .row{
     height:100vh;
     
@@ -63,3 +87,37 @@ a:link{
         display:none;
     }
 }
+
+/*text boxes*/
+.comment-box{
+    padding-top:20px;
+}
+
+.email-box{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px;
+    padding:15px;
+    padding-top: 30px;
+    padding-bottom: 30px;;
+}
+
+.reply-box{
+    float:left;
+    padding-right: 2%;
+}
+
+.reply-forward{
+    padding-top:40px;
+}
+/*images*/
+.airbnb-img{
+    padding-bottom:40px;
+    border-radius:none;
+}
+
+img{
+    border-radius: 50%;
+
+}
+
