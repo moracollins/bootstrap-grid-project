@@ -1,48 +1,9 @@
-
-/*button colors and hover colors*/
-.inbox-btn{
-    background-color: #2E5090;
-    border-color:#2E5090;
-    width:60%;
-    display:flex;
-    padding:15px;
+/*body but not including header*/
+.body{
+    padding-left:15px;
+    padding-right: 15px;
 }
 
-.inbox-btn:hover{
-    background-color: #7B8CDE;
-    border-color: #2E5090;
-}
-
-.search-btn, .search-btn:active, .search-btn:visited{
-    color:#2E5090;
-    border-color: #2E5090;
-}
-
-.search-btn:hover{
-    background-color: #2E5090;
-    border-color: #2E5090;
-}
-
-.button{
-    padding-top:20px;
-}
-
-.list-btn{
-    display: flex;
-    width:60%;
-    border-color: #2E5090;
-    color:white;
-    padding:15px;
-}
-
-.list-btn:hover{
-    background-color: #7B8CDE;
-    border-color: #2E5090;
-}
-
-.reply-btn{
-    padding-top:50px;
-}
 /*text colors*/
 h3{
     color:white;
@@ -56,18 +17,18 @@ p{
 }
 
 /*column colors and padding*/
-.column-1{
+.inbox-column{
     background-color: #2E5090 ;
     padding:20px;
     
 }
 
-.column-2{
+.search-column{
     background-color: #7B8CDE ;
     padding:8px;
 }
 
-.column-3{
+.reply-column{
     background-color: #9999C3;
     padding:40px;    
 }
@@ -76,39 +37,109 @@ p{
     background-color: #9999C3;
 }
 
-/*visibility of columns*/
+/*making columns full height*/
 .row{
     height:100vh;
     
 }
 
+/*allowing 4th column to only be visible for medium screen sizes*/
 @media screen and (min-width: 992px){
     .column-4{
         display:none;
     }
 }
 
-/*text boxes*/
-.comment-box{
+/*button colors and hover colors*/
+.profile-btn{
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    border-color:#f8f9fa;
+    border-width: 1px;
+}
+
+.profile-btn:hover{
+    background-color: #bbbbec;
+    border-color: #f8f9fa;
+}
+
+.inbox-btn{
+    background-color: #2E5090;
+    border-color:#2E5090;
+    width:70%;
+    display:flex;
+    padding:15px;
+}
+
+.inbox-btn:hover{
+    background-color: #7B8CDE;
+    border-color: #2E5090;
+    width:75%;
+}
+
+.search-btn, .search-btn:active, .search-btn:visited{
+    color:#2E5090;
+    border-color: #2E5090;
+    background-color: transparent;
+    
+}
+
+.search-btn:hover{
+    background-color: #2E5090;
+    border-color: #2E5090;
+}
+
+.compose-btn{
+    background-color: #234076;
+    border-color: #234076;
+}
+
+.compose-btn:hover{
+    background-color: #3b63ac;
+    border-color: #3b63ac;
+}
+.d-flex{
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.button{
     padding-top:20px;
 }
 
-.email-box{
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 10px;
+.list-btn{
+    display: flex;
+    width:70%;
+    border-color: #2E5090;
+    color:white;
     padding:15px;
-    padding-top: 30px;
-    padding-bottom: 30px;;
+}
+
+.list-btn:hover{
+    background-color: #7B8CDE;
+    border-color: #2E5090;
+}
+
+.send-btn-padding{
+    padding-top: 40px;
+}
+/*text boxes (all in column three)*/
+.header-reply{
+    padding-bottom: 20px;
+}
+
+.entire-email{
+    background-color: white;
+    border-radius: 10px;
+    padding:30px;
+    padding-bottom: 70px;
+    box-shadow: 5px 5px 5px 5px  #747492;
 }
 
 .reply-box{
-    float:left;
-    padding-right: 2%;
-}
-
-.reply-forward{
-    padding-top:40px;
+    padding-top: 30px;
+    box-shadow: 5px 5px 5px 5px #747492;
 }
 /*images*/
 .airbnb-img{
@@ -118,6 +149,11 @@ p{
 
 img{
     border-radius: 50%;
-
 }
+
+
+
+
+
+
 
